@@ -5,10 +5,9 @@ const { Sequelize, DataTypes } = require('sequelize');
 const db = new Sequelize({
 	dialect: 'postgres',
 	host: 'localhost',
-	username: 'postgres',
-	password: 'pass1234',
+	username: 'gitpod',
 	port: 5432,
-	database: 'blogs',
+	database: 'postgres',
 	logging: false,
 });
 
